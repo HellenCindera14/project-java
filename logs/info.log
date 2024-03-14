@@ -1,0 +1,332 @@
+14-03-2024 00:01:24.001 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 14168 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 00:01:24.001 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 00:01:24.011 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 00:06:24.242 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 15712 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 00:06:24.256 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 00:06:24.261 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 00:06:33.858 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 10.82 seconds (process running for 11.432)
+14-03-2024 00:06:52.302 [http-nio-8080-exec-2] INFO  b.project.services.RabbitMQProducer.sendMessage - Message sent -> Berhasil sending to RabbitMQ: User(id=20, name=kamu, description=Deskripsi, code=Kode, userInfo={"key1":"value1","key2":"value2"}, createAt=Thu Mar 14 00:06:52 WIB 2024, updateAt=Thu Mar 14 00:06:52 WIB 2024)
+14-03-2024 00:06:52.449 [http-nio-8080-exec-2] ERROR bdki.project.services.UserServices.processUser - Error processing : java.io.IOException
+14-03-2024 00:15:12.779 [main] INFO  b.project.ProjectApplicationTests.logStarting - Starting ProjectApplicationTests using Java 17.0.9 with PID 14076 (started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 00:15:12.779 [main] DEBUG b.project.ProjectApplicationTests.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 00:15:12.787 [main] INFO  b.project.ProjectApplicationTests.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 00:15:21.992 [main] INFO  b.project.ProjectApplicationTests.logStarted - Started ProjectApplicationTests in 10.097 seconds (process running for 12.192)
+14-03-2024 00:15:49.172 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 14556 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 00:15:49.172 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 00:15:49.172 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 00:15:59.297 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 11.524 seconds (process running for 12.425)
+14-03-2024 00:16:10.115 [http-nio-8080-exec-2] INFO  b.project.services.RabbitMQProducer.sendMessage - Message sent -> Berhasil sending to RabbitMQ: User(id=21, name=kamu, description=Deskripsi, code=Kode, userInfo={"key1":"value1","key2":"value2"}, createAt=Thu Mar 14 00:16:10 WIB 2024, updateAt=Thu Mar 14 00:16:10 WIB 2024)
+14-03-2024 00:16:10.249 [http-nio-8080-exec-2] ERROR bdki.project.services.UserServices.processUser - Error processing : java.io.IOException
+14-03-2024 00:19:30.373 [http-nio-8080-exec-3] INFO  b.project.services.RabbitMQProducer.sendMessage - Message sent -> bagunkan saya
+14-03-2024 00:21:54.093 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 12388 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 00:21:54.093 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 00:21:54.101 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 00:22:03.633 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 10.806 seconds (process running for 11.737)
+14-03-2024 00:22:42.605 [http-nio-8080-exec-1] INFO  b.project.services.RabbitMQProducer.sendMessage - Message sent -> bagunkan saya
+14-03-2024 00:24:24.881 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 12632 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 00:24:24.883 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 00:24:24.885 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 00:24:35.385 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 12.102 seconds (process running for 13.368)
+14-03-2024 00:25:39.994 [http-nio-8080-exec-1] INFO  b.project.services.RabbitMQProducer.sendMessage - Message sent -> Berhasil sending to RabbitMQ: User(id=22, name=kamu, description=Deskripsi, code=Kode, userInfo={"key1":"value1","key2":"value2"}, createAt=Thu Mar 14 00:25:18 WIB 2024, updateAt=Thu Mar 14 00:25:18 WIB 2024)
+14-03-2024 00:26:29.865 [http-nio-8080-exec-1] ERROR bdki.project.services.UserServices.processUser - Error processing : java.io.IOException
+14-03-2024 00:31:10.564 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 13076 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 00:31:10.569 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 00:31:10.569 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 00:31:21.487 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 12.886 seconds (process running for 14.334)
+14-03-2024 00:32:06.804 [http-nio-8080-exec-1] INFO  b.project.services.RabbitMQProducer.sendMessage - Message sent -> Berhasil sending to RabbitMQ: User(id=23, name=kamu, description=Deskripsi, code=Kode, userInfo={}, createAt=Thu Mar 14 00:31:58 WIB 2024, updateAt=Thu Mar 14 00:31:58 WIB 2024)
+14-03-2024 00:32:16.354 [http-nio-8080-exec-1] ERROR bdki.project.services.UserServices.processUser - Unexpected error processing: java.io.IOException
+org.springframework.amqp.AmqpIOException: java.io.IOException
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:70)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:606)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:727)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:257)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2249)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2222)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.send(RabbitTemplate.java:1122)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.convertAndSend(RabbitTemplate.java:1188)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.convertAndSend(RabbitTemplate.java:1181)
+	at bdki.project.services.RabbitMQProducer.sendMessage(RabbitMQProducer.java:29)
+	at bdki.project.services.UserServices.processUser(UserServices.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:351)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:385)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:717)
+	at bdki.project.services.UserServices$$SpringCGLIB$$0.processUser(<generated>)
+	at bdki.project.controller.UserController.prosesUser(UserController.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:259)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:192)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: null
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:140)
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:136)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:158)
+	at com.rabbitmq.client.impl.AMQConnection.start(AMQConnection.java:454)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1251)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1198)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:652)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:621)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:568)
+	... 75 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: connection error; protocol method: #method<connection.close>(reply-code=530, reply-text=NOT_ALLOWED - vhost /  not found, class-id=10, method-id=40)
+	at com.rabbitmq.utility.ValueOrException.getValue(ValueOrException.java:66)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:552)
+	at com.rabbitmq.client.impl.AMQChannel.privateRpc(AMQChannel.java:316)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:152)
+	... 81 common frames omitted
+14-03-2024 01:07:17.422 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 6948 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 01:07:17.435 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 01:07:17.435 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 01:07:46.126 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 7608 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 01:07:46.128 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 01:07:46.129 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 01:12:08.566 [main] INFO  b.project.ProjectApplicationTests.logStarting - Starting ProjectApplicationTests using Java 17.0.9 with PID 16160 (started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 01:12:08.574 [main] DEBUG b.project.ProjectApplicationTests.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 01:12:08.576 [main] INFO  b.project.ProjectApplicationTests.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 01:12:21.400 [main] INFO  b.project.ProjectApplicationTests.logStarted - Started ProjectApplicationTests in 13.834 seconds (process running for 16.367)
+14-03-2024 01:12:59.414 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 10168 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 01:12:59.414 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 01:12:59.414 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 01:13:10.325 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 12.42 seconds (process running for 13.433)
+14-03-2024 01:13:19.520 [http-nio-8080-exec-1] INFO  b.project.services.RabbitMQProducer.sendMessage - Message sent -> Berhasil sending to RabbitMQ: User(id=24, name=kamu, description=Deskripsi, code=Kode, userInfo={}, createAt=Thu Mar 14 01:13:19 WIB 2024, updateAt=Thu Mar 14 01:13:19 WIB 2024)
+14-03-2024 01:13:19.661 [http-nio-8080-exec-1] ERROR bdki.project.services.UserServices.processUser - Error processing : java.io.IOException
+14-03-2024 01:18:28.101 [main] INFO  b.project.ProjectApplicationTests.logStarting - Starting ProjectApplicationTests using Java 17.0.9 with PID 5728 (started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 01:18:28.104 [main] DEBUG b.project.ProjectApplicationTests.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 01:18:28.104 [main] INFO  b.project.ProjectApplicationTests.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 01:18:40.444 [main] INFO  b.project.ProjectApplicationTests.logStarted - Started ProjectApplicationTests in 13.309 seconds (process running for 15.742)
+14-03-2024 01:19:16.870 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 5740 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 01:19:16.885 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 01:19:16.887 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 01:19:28.519 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 13.217 seconds (process running for 14.142)
+14-03-2024 01:19:35.037 [http-nio-8080-exec-1] INFO  b.project.services.RabbitMQProducer.sendMessage - Message sent -> Berhasil sending to RabbitMQ: User(id=25, name=kamu, description=Deskripsi, code=Kode, userInfo=null, createAt=Thu Mar 14 01:19:34 WIB 2024, updateAt=Thu Mar 14 01:19:34 WIB 2024)
+14-03-2024 01:19:35.189 [http-nio-8080-exec-1] ERROR bdki.project.services.UserServices.processUser - Error processing : java.io.IOException
+14-03-2024 01:26:40.393 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 13428 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 01:26:40.393 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 01:26:40.393 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 01:26:50.944 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 12.414 seconds (process running for 13.31)
+14-03-2024 01:26:58.193 [http-nio-8080-exec-2] INFO  b.project.services.RabbitMQProducer.sendMessage - Message sent -> Berhasil sending to RabbitMQ: User(id=26, name=kamu, description=Deskripsi, code=Kode, createAt=Thu Mar 14 01:26:58 WIB 2024, updateAt=Thu Mar 14 01:26:58 WIB 2024)
+14-03-2024 01:26:58.324 [http-nio-8080-exec-2] ERROR bdki.project.services.UserServices.processUser - Error processing : java.io.IOException
+14-03-2024 01:46:47.973 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 16408 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 01:46:47.975 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 01:46:47.975 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 01:47:00.394 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 14.065 seconds (process running for 14.753)
+14-03-2024 01:47:25.928 [http-nio-8080-exec-2] INFO  b.project.services.RabbitMQProducer.sendMessage - Message sent -> Berhasil sending to RabbitMQ: User(id=27, name=kamu, description=Deskripsi, code=Kode, createAt=Thu Mar 14 01:47:25 WIB 2024, updateAt=Thu Mar 14 01:47:25 WIB 2024)
+14-03-2024 01:47:26.097 [http-nio-8080-exec-2] ERROR bdki.project.services.UserServices.processUser - Error processing : java.io.IOException
+14-03-2024 08:41:57.913 [main] INFO  b.project.ProjectApplicationTests.logStarting - Starting ProjectApplicationTests using Java 17.0.9 with PID 14440 (started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 08:41:57.926 [main] DEBUG b.project.ProjectApplicationTests.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 08:41:57.926 [main] INFO  b.project.ProjectApplicationTests.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 08:42:25.904 [main] INFO  b.project.ProjectApplicationTests.logStarted - Started ProjectApplicationTests in 29.694 seconds (process running for 36.802)
+14-03-2024 08:46:03.380 [main] INFO  b.project.ProjectApplicationTests.logStarting - Starting ProjectApplicationTests using Java 17.0.9 with PID 24116 (started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 08:46:03.380 [main] DEBUG b.project.ProjectApplicationTests.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 08:46:03.391 [main] INFO  b.project.ProjectApplicationTests.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 08:46:27.041 [main] INFO  b.project.ProjectApplicationTests.logStarted - Started ProjectApplicationTests in 25.808 seconds (process running for 32.03)
+14-03-2024 08:47:21.649 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 15456 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 08:47:21.649 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 08:47:21.649 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 08:47:32.766 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 12.486 seconds (process running for 13.478)
+14-03-2024 08:48:53.712 [http-nio-8080-exec-5] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> Berhasil sending to RabbitMQ: User(id=29, name=John Doe, description=Example description, code=12345, userInfo=null, createAt=Thu Mar 14 08:48:53 WIB 2024, updateAt=Thu Mar 14 08:48:53 WIB 2024)
+14-03-2024 08:48:53.871 [http-nio-8080-exec-5] ERROR bdki.project.services.UserServices.processUser - Error processing : java.io.IOException
+14-03-2024 08:52:20.425 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 22240 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 08:52:20.433 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 08:52:20.442 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 08:52:31.648 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 12.913 seconds (process running for 14.06)
+14-03-2024 08:53:03.777 [http-nio-8080-exec-1] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> {"name":"John Doe","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 08:54:19.641 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 19572 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 08:54:19.641 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 08:54:19.648 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 08:54:46.756 [http-nio-8080-exec-4] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> {"name":"John Doe","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 08:56:38.074 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 16208 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 08:56:38.076 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 08:56:38.078 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 08:57:40.935 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 22104 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 08:57:40.937 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 08:57:40.939 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 08:59:05.018 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 20336 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 08:59:05.018 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 08:59:05.018 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 08:59:15.614 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 11.833 seconds (process running for 12.516)
+14-03-2024 08:59:27.043 [http-nio-8081-exec-2] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> {"name":"John Doe","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 09:01:13.436 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 22148 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 09:01:13.438 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 09:01:13.441 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 09:01:25.068 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 13.037 seconds (process running for 14.551)
+14-03-2024 09:01:42.999 [http-nio-8081-exec-1] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> {"name":"John Doe","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 09:02:53.333 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 11552 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 09:02:53.336 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 09:02:53.341 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 09:03:13.349 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 21.79 seconds (process running for 23.275)
+14-03-2024 09:04:37.334 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 21888 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 09:04:37.334 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 09:04:37.334 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 09:04:50.360 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 14.684 seconds (process running for 16.195)
+14-03-2024 09:05:53.899 [http-nio-8081-exec-2] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> Berhasil sending to RabbitMQ: User(id=30, name=John Doe, description=Example description, code=12345, userInfo=null, createAt=Thu Mar 14 09:05:38 WIB 2024, updateAt=Thu Mar 14 09:05:38 WIB 2024)
+14-03-2024 09:06:19.821 [http-nio-8081-exec-2] ERROR bdki.project.services.UserServices.processUser - Error processing : java.io.IOException
+14-03-2024 09:06:40.214 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 21592 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 09:06:40.214 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 09:06:40.214 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 09:06:58.532 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 19.71 seconds (process running for 21.809)
+14-03-2024 09:08:31.007 [http-nio-8081-exec-2] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> Berhasil sending to RabbitMQ: User(id=31, name=John Doe, description=Example description, code=12345, userInfo=null, createAt=Thu Mar 14 09:07:27 WIB 2024, updateAt=Thu Mar 14 09:07:27 WIB 2024)
+14-03-2024 09:09:00.841 [http-nio-8081-exec-2] ERROR bdki.project.services.UserServices.processUser - Error processing : java.io.IOException
+14-03-2024 09:13:10.470 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 17572 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 09:13:10.470 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 09:13:10.486 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 09:13:22.033 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 12.981 seconds (process running for 14.369)
+14-03-2024 09:14:13.434 [http-nio-8081-exec-3] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> {"name":"John Doe","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 09:16:22.692 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 16320 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 09:16:22.692 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 09:16:22.692 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 09:16:33.865 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 12.457 seconds (process running for 13.648)
+14-03-2024 09:17:19.064 [http-nio-8081-exec-1] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> {"name":"John Doe","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 09:25:06.010 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 18136 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 09:25:06.010 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 09:25:06.025 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 09:25:17.376 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 12.869 seconds (process running for 14.597)
+14-03-2024 09:26:33.861 [http-nio-8081-exec-2] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> {"name":"John Doe","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 09:29:08.295 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 10236 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 09:29:08.298 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 09:29:08.301 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 09:29:19.257 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 12.854 seconds (process running for 14.178)
+14-03-2024 09:30:11.570 [http-nio-8081-exec-2] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> {"name":"John Doe","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 09:30:25.285 [http-nio-8081-exec-2] ERROR b.project.publisher.RabbitMQProducer.sendMessage - Error sending message to RabbitMQ: java.io.IOException
+org.springframework.amqp.AmqpIOException: java.io.IOException
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:70)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:606)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:727)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:257)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2249)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2222)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.send(RabbitTemplate.java:1122)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.convertAndSend(RabbitTemplate.java:1188)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.convertAndSend(RabbitTemplate.java:1181)
+	at bdki.project.publisher.RabbitMQProducer.sendMessage(RabbitMQProducer.java:31)
+	at bdki.project.controller.UserController.sendMessage(UserController.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:259)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:192)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: null
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:140)
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:136)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:158)
+	at com.rabbitmq.client.impl.AMQConnection.start(AMQConnection.java:454)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1251)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1198)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:652)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:621)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:568)
+	... 59 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: connection error; protocol method: #method<connection.close>(reply-code=530, reply-text=NOT_ALLOWED - vhost /  not found, class-id=10, method-id=40)
+	at com.rabbitmq.utility.ValueOrException.getValue(ValueOrException.java:66)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:552)
+	at com.rabbitmq.client.impl.AMQChannel.privateRpc(AMQChannel.java:316)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:152)
+	... 65 common frames omitted
+14-03-2024 09:33:05.114 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 19188 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 09:33:05.118 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 09:33:05.118 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 09:33:17.190 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 13.405 seconds (process running for 14.644)
+14-03-2024 09:33:58.289 [http-nio-8081-exec-2] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> {"name":"John Doe","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
