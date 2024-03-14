@@ -31,7 +31,7 @@ public class UserController {
     public ResponseEntity<String> sendMessage(@RequestBody Map<String, Object> params) throws JsonProcessingException {
         ObjectMapper objectMapper = new ObjectMapper();
         String jsonData = objectMapper.writeValueAsString(params);
-        System.out.println("ini adalah data json" + jsonData);
+        // System.out.println("ini adalah data json" + jsonData);
         producer.sendMessage(jsonData);
         return ResponseEntity.ok("Message sent to RabbitMQ ...");
     }

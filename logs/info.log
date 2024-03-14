@@ -330,3 +330,132 @@ Caused by: com.rabbitmq.client.ShutdownSignalException: connection error; protoc
 14-03-2024 09:33:05.118 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
 14-03-2024 09:33:17.190 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 13.405 seconds (process running for 14.644)
 14-03-2024 09:33:58.289 [http-nio-8081-exec-2] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> {"name":"John Doe","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 10:18:23.323 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 9036 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 10:18:23.325 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 10:18:23.327 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 10:18:31.686 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 9.296 seconds (process running for 9.999)
+14-03-2024 10:18:41.927 [http-nio-8081-exec-2] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> {"name":"John Doe","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 10:31:17.413 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 19924 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 10:31:17.418 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 10:31:17.418 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 10:31:25.554 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 9.771 seconds (process running for 10.957)
+14-03-2024 10:31:25.566 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  b.project.consumer.RabbitMQConsumer.consume - Received message -> 
+14-03-2024 10:31:25.571 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  b.project.consumer.RabbitMQConsumer.consume - Received message -> 
+14-03-2024 10:31:25.573 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  b.project.consumer.RabbitMQConsumer.consume - Received message -> {"name":"John Doe","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 10:31:25.577 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  b.project.consumer.RabbitMQConsumer.consume - Received message -> {"name":"John Doe","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 10:31:50.738 [http-nio-8081-exec-3] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> {"name":"John Doe","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 10:31:50.772 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  b.project.consumer.RabbitMQConsumer.consume - Received message -> {"name":"John Doe","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 13:30:48.278 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 22236 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 13:30:48.278 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 13:30:48.290 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 13:31:21.833 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 22096 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 13:31:21.839 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 13:31:21.844 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 13:32:35.236 [main] INFO  b.project.ProjectApplicationTests.logStarting - Starting ProjectApplicationTests using Java 17.0.9 with PID 24524 (started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 13:32:35.238 [main] DEBUG b.project.ProjectApplicationTests.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 13:32:35.242 [main] INFO  b.project.ProjectApplicationTests.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 13:34:34.567 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 19708 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 13:34:34.573 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 13:34:34.573 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 13:36:04.969 [main] INFO  b.project.ProjectApplicationTests.logStarting - Starting ProjectApplicationTests using Java 17.0.9 with PID 15332 (started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 13:36:04.974 [main] DEBUG b.project.ProjectApplicationTests.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 13:36:04.979 [main] INFO  b.project.ProjectApplicationTests.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 13:36:26.914 [main] INFO  b.project.ProjectApplicationTests.logStarted - Started ProjectApplicationTests in 23.915 seconds (process running for 29.041)
+14-03-2024 13:37:04.483 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 14284 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 13:37:04.483 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 13:37:04.489 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 13:38:29.083 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 24500 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 13:38:29.085 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 13:38:29.087 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 13:38:37.563 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 9.767 seconds (process running for 10.637)
+14-03-2024 13:38:49.946 [http-nio-8082-exec-2] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> {"name":"John Doe","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 13:38:50.055 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  b.project.consumer.RabbitMQConsumer.consume - Received message -> {"name":"John Doe","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 13:40:42.478 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 21148 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 13:40:42.481 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 13:40:42.481 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 13:40:49.288 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 7.7 seconds (process running for 8.356)
+14-03-2024 13:40:58.838 [http-nio-8082-exec-1] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> {"name":"John Doe","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 13:40:58.864 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  b.project.consumer.RabbitMQConsumer.consume - Received message -> {"name":"John Doe","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 13:42:01.028 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 20616 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 13:42:01.028 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 13:42:01.053 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 13:42:13.003 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 13.363 seconds (process running for 14.509)
+14-03-2024 13:43:24.128 [http-nio-8082-exec-1] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> {"name":"John Doe","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 13:43:27.418 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  b.project.consumer.RabbitMQConsumer.consume - Received message -> {"name":"John Doe","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 13:44:46.518 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 18768 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 13:44:46.518 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 13:44:46.518 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 13:44:54.607 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 9.289 seconds (process running for 10.289)
+14-03-2024 13:44:58.858 [http-nio-8082-exec-3] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> {"name":"John Doe 1","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 13:44:59.028 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  b.project.consumer.RabbitMQConsumer.consume - Received message -> {"name":"John Doe 1","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 13:46:54.276 [main] INFO  b.project.ProjectApplicationTests.logStarting - Starting ProjectApplicationTests using Java 17.0.9 with PID 17144 (started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 13:46:54.281 [main] DEBUG b.project.ProjectApplicationTests.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 13:46:54.286 [main] INFO  b.project.ProjectApplicationTests.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 13:47:11.157 [main] INFO  b.project.ProjectApplicationTests.logStarted - Started ProjectApplicationTests in 18.724 seconds (process running for 23.153)
+14-03-2024 13:47:51.249 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 18056 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 13:47:51.252 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 13:47:51.254 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 13:47:59.922 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 9.875 seconds (process running for 10.663)
+14-03-2024 13:48:10.270 [http-nio-8082-exec-2] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> {"name":"John Doe 2","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 13:48:10.434 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  b.project.consumer.RabbitMQConsumer.consume - Received message -> {"name":"John Doe 2","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 13:49:57.042 [main] INFO  b.project.ProjectApplicationTests.logStarting - Starting ProjectApplicationTests using Java 17.0.9 with PID 24424 (started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 13:49:57.042 [main] DEBUG b.project.ProjectApplicationTests.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 13:49:57.047 [main] INFO  b.project.ProjectApplicationTests.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 13:50:14.412 [main] INFO  b.project.ProjectApplicationTests.logStarted - Started ProjectApplicationTests in 18.82 seconds (process running for 21.691)
+14-03-2024 13:50:58.042 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 7928 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 13:50:58.042 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 13:50:58.047 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 13:51:08.217 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 11.936 seconds (process running for 12.858)
+14-03-2024 13:51:21.994 [http-nio-8082-exec-2] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> {"name":"John Doe 3","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 13:51:22.026 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  b.project.consumer.RabbitMQConsumer.consume - Received message -> {"name":"John Doe 3","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 13:55:23.074 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 1860 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 13:55:23.081 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 13:55:23.091 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 13:57:11.434 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 5496 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 13:57:11.436 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 13:57:11.438 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 13:57:19.438 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 8.967 seconds (process running for 10.238)
+14-03-2024 13:57:28.224 [http-nio-8082-exec-2] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> {"name":"John Doe 3","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 13:57:28.255 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  b.project.consumer.RabbitMQConsumer.consume - Received message -> {"name":"John Doe 3","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 13:58:28.586 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 19744 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 13:58:28.586 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 13:58:28.591 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 13:58:39.718 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 13.849 seconds (process running for 14.626)
+14-03-2024 13:59:31.349 [http-nio-8082-exec-2] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> {"name":"John Doe 3","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 13:59:31.384 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  b.project.consumer.RabbitMQConsumer.consume - Received message -> {"name":"John Doe 3","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 14:03:13.091 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 14132 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 14:03:13.092 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 14:03:13.094 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 14:03:19.997 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 7.861 seconds (process running for 8.435)
+14-03-2024 14:03:32.631 [http-nio-8082-exec-1] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> {"name":"John Doe 4","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 14:03:32.660 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  b.project.consumer.RabbitMQConsumer.consume - Received message -> {"name":"John Doe 4","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 14:23:43.898 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 14948 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 14:23:43.900 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 14:23:43.901 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 14:24:51.225 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 21956 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 14:24:51.240 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 14:24:51.272 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 14:24:59.177 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 9.575 seconds (process running for 10.261)
+14-03-2024 14:25:13.142 [http-nio-8082-exec-1] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> {"name":"John Doe 5","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 14:25:13.173 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  b.project.consumer.RabbitMQConsumer.consume - Received message -> {"name":"John Doe 5","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 14:28:15.968 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 22560 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 14:28:15.970 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 14:28:15.972 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 14:30:55.974 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 21896 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 14:30:55.974 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 14:30:55.974 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 14:31:03.042 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 7.999 seconds (process running for 8.559)
+14-03-2024 14:36:04.036 [http-nio-8082-exec-3] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> {"name":"John Doe 6","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 14:36:04.113 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  b.project.consumer.RabbitMQConsumer.consume - Received message -> {"name":"John Doe 6","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 14:38:16.443 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 6780 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 14:38:16.443 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 14:38:16.443 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 14:38:24.701 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 9.206 seconds (process running for 9.744)
+14-03-2024 14:38:41.217 [http-nio-8082-exec-2] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> {"name":"John Doe 7","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 14:38:41.244 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  b.project.consumer.RabbitMQConsumer.consume - Received message -> {"name":"John Doe 7","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 14:43:16.556 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 14276 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+14-03-2024 14:43:16.559 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+14-03-2024 14:43:16.560 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+14-03-2024 14:43:37.258 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 22.304 seconds (process running for 23.663)
+14-03-2024 14:44:05.677 [http-nio-8082-exec-1] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> {"name":"John Doe 7","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
+14-03-2024 14:44:07.228 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  b.project.consumer.RabbitMQConsumer.consume - Received message -> {"name":"John Doe 7","description":"Example description","code":"12345","additional_info":"{\"key\":\"value\"}","status":true}
