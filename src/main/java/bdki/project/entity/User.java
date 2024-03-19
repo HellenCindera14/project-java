@@ -1,13 +1,11 @@
 package bdki.project.entity;
 
 import java.util.Date;
+
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
-import org.json.JSONObject;
 
-import bdki.project.util.JSONObjectConverter;
 import jakarta.persistence.Column;
-import jakarta.persistence.Convert;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -34,20 +32,31 @@ public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private long id;
 
     @Column(name = "name")
     private String name;
 
-    @Column(name = "description")
-    private String description;
+    @Column(name = "phoneNumber")
+    private String phoneNumber;
 
-    @Column(name = "code")
-    private String code;
+    @Column(name = "channelRequest")
+    private String channelRequest;
 
-    @Convert(converter = JSONObjectConverter.class)
-    @Column(name = "user_info", length = 2048)
-    private JSONObject userInfo;
+    @Column(name = "fullName")
+    private String fullName;
+
+    @Column(name = "birthdate")
+    private String birthdate;
+
+    @Column(name = "placeOfBirth")
+    private String placeOfBirth;
+
+    @Column(name = "email")
+    private String email;
+
+    @Column(name = "stan")
+    private String stan;
 
     @CreationTimestamp
     @Temporal(TemporalType.TIMESTAMP)
