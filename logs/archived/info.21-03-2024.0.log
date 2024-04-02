@@ -1,0 +1,299 @@
+20-03-2024 00:00:15.208 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 17188 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+20-03-2024 00:00:15.208 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+20-03-2024 00:00:15.224 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+20-03-2024 00:00:24.395 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 10.293 seconds (process running for 10.883)
+20-03-2024 00:12:30.581 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 17064 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+20-03-2024 00:12:30.603 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+20-03-2024 00:12:30.603 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+20-03-2024 00:12:39.712 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 10.354 seconds (process running for 10.972)
+20-03-2024 08:39:19.058 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 10332 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+20-03-2024 08:39:19.060 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+20-03-2024 08:39:19.063 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+20-03-2024 08:39:27.043 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 8.901 seconds (process running for 9.612)
+20-03-2024 10:30:20.962 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 10712 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+20-03-2024 10:30:20.962 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+20-03-2024 10:30:20.971 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+20-03-2024 10:30:57.036 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 20788 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+20-03-2024 10:30:57.038 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+20-03-2024 10:30:57.041 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+20-03-2024 10:31:41.576 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 18564 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+20-03-2024 10:31:41.581 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+20-03-2024 10:31:41.581 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+20-03-2024 10:32:35.129 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 10584 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+20-03-2024 10:32:35.134 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+20-03-2024 10:32:35.138 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+20-03-2024 10:32:48.535 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 14.902 seconds (process running for 16.499)
+20-03-2024 10:33:27.802 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 16108 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+20-03-2024 10:33:27.811 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+20-03-2024 10:33:27.811 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+20-03-2024 10:33:50.021 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 6748 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+20-03-2024 10:33:50.026 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+20-03-2024 10:33:50.026 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+20-03-2024 10:34:06.824 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 18.855 seconds (process running for 20.032)
+20-03-2024 10:36:28.090 [main] INFO  b.project.ProjectApplicationTests.logStarting - Starting ProjectApplicationTests using Java 17.0.9 with PID 11604 (started by USER in C:\Users\USER\Downloads\project\project)
+20-03-2024 10:36:28.090 [main] DEBUG b.project.ProjectApplicationTests.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+20-03-2024 10:36:28.090 [main] INFO  b.project.ProjectApplicationTests.logStartupProfileInfo - The following 1 profile is active: "default"
+20-03-2024 10:36:43.462 [main] INFO  b.project.ProjectApplicationTests.logStarted - Started ProjectApplicationTests in 16.408 seconds (process running for 19.096)
+20-03-2024 10:37:17.087 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 13240 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+20-03-2024 10:37:17.089 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+20-03-2024 10:37:17.093 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+20-03-2024 10:37:32.580 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 16.82 seconds (process running for 18.218)
+20-03-2024 10:38:40.790 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 21156 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+20-03-2024 10:38:40.790 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+20-03-2024 10:38:40.800 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+20-03-2024 10:38:52.180 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 13.276 seconds (process running for 14.661)
+20-03-2024 10:39:29.812 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 3688 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+20-03-2024 10:39:29.820 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+20-03-2024 10:39:29.820 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+20-03-2024 10:39:45.760 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 17.28 seconds (process running for 18.716)
+20-03-2024 10:41:11.603 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 9276 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+20-03-2024 10:41:11.610 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+20-03-2024 10:41:11.610 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+20-03-2024 10:41:27.432 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 17.645 seconds (process running for 19.781)
+20-03-2024 10:42:36.043 [http-nio-8087-exec-2] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> {"channel":"MARTIPAY","notificationType":"REGISTRATION-ACCOUNT-BINDING","rawNotification":[{"url":"https://","bodyRequest":{"phoneNumber":"6285270196990","fullName":"Kal Kausar","birthdate":"1998-08-30","placeOrBirth":"Banda Aceh","email":"kalkausar98@gmail.com","channelRequest":"MARTIPAY","stan":"123456","requestDate":"2024-01-30","requestTime":"14:56:27","tokenAuthorization":"pw/hyLkFlQhdyq3DRvFdWw==","responseCode":"00","responseDescription":"Success"},"header":[{"key":"Content-Type","value":"Application/JSON"},{"key":"channelRequest","value":"MARTIPAY"}],"requestParams":[{"key":"id","value":"2"},{"key":"name","value":"kalkausar"}]}]}
+20-03-2024 10:42:41.379 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  b.project.consumer.RabbitMQConsumer.consume - received message : {"channel":"MARTIPAY","notificationType":"REGISTRATION-ACCOUNT-BINDING","rawNotification":[{"url":"https://","bodyRequest":{"phoneNumber":"6285270196990","fullName":"Kal Kausar","birthdate":"1998-08-30","placeOrBirth":"Banda Aceh","email":"kalkausar98@gmail.com","channelRequest":"MARTIPAY","stan":"123456","requestDate":"2024-01-30","requestTime":"14:56:27","tokenAuthorization":"pw/hyLkFlQhdyq3DRvFdWw==","responseCode":"00","responseDescription":"Success"},"header":[{"key":"Content-Type","value":"Application/JSON"},{"key":"channelRequest","value":"MARTIPAY"}],"requestParams":[{"key":"id","value":"2"},{"key":"name","value":"kalkausar"}]}]}
+20-03-2024 10:42:42.981 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  b.project.consumer.RabbitMQConsumer.postApiCallback - 
+ =================================================================== 
+
+Access Rabbit MQ Consumer REGISTRATION-ACCOUNT-BINDING
+URL 	 	 : http://ue-dev.bankdki.co.id/api/transactionservice/transaction/cashin 
+Header 	 	 : {"Content-Type":["Application/JSON"],"channelRequest":["MARTIPAY"]} 
+Request 	 : {"requestTime":"14:56:27","tokenAuthorization":"pw/hyLkFlQhdyq3DRvFdWw==","phoneNumber":"6285270196990","birthdate":"1998-08-30","channelRequest":"MARTIPAY","responseDescription":"Success","placeOrBirth":"Banda Aceh","stan":"123456","requestDate":"2024-01-30","fullName":"Kal Kausar","email":"kalkausar98@gmail.com","responseCode":"00"} 
+Response 	 : Error : 400 : "{"errorCode":"44","sourceSystem":"DIWA-SVC","message":"ACCOUNT NOT FOUND","engMessage":"ACCOUNT NOT FOUND","idnMessage":"REKENING TIDAK DITEMUKAN","activityRefCode":"7189bd2a628c8173"}" 
+
+ =================================================================== 
+
+20-03-2024 10:42:56.343 [http-nio-8087-exec-2] INFO  b.project.consumer.RabbitMQConsumer.consume - received message : {"channel":"MARTIPAY","notificationType":"REGISTRATION-ACCOUNT-BINDING","rawNotification":[{"url":"https://","bodyRequest":{"phoneNumber":"6285270196990","fullName":"Kal Kausar","birthdate":"1998-08-30","placeOrBirth":"Banda Aceh","email":"kalkausar98@gmail.com","channelRequest":"MARTIPAY","stan":"123456","requestDate":"2024-01-30","requestTime":"14:56:27","tokenAuthorization":"pw/hyLkFlQhdyq3DRvFdWw==","responseCode":"00","responseDescription":"Success"},"header":[{"key":"Content-Type","value":"Application/JSON"},{"key":"channelRequest","value":"MARTIPAY"}],"requestParams":[{"key":"id","value":"2"},{"key":"name","value":"kalkausar"}]}]}
+20-03-2024 10:45:11.193 [http-nio-8087-exec-2] INFO  b.project.consumer.RabbitMQConsumer.postApiCallback - 
+ =================================================================== 
+
+Access Rabbit MQ Consumer REGISTRATION-ACCOUNT-BINDING
+URL 	 	 : http://ue-dev.bankdki.co.id/api/transactionservice/transaction/cashin 
+Header 	 	 : {"Content-Type":["Application/JSON"],"channelRequest":["MARTIPAY"]} 
+Request 	 : {"requestTime":"14:56:27","tokenAuthorization":"pw/hyLkFlQhdyq3DRvFdWw==","phoneNumber":"6285270196990","birthdate":"1998-08-30","channelRequest":"MARTIPAY","responseDescription":"Success","placeOrBirth":"Banda Aceh","stan":"123456","requestDate":"2024-01-30","fullName":"Kal Kausar","email":"kalkausar98@gmail.com","responseCode":"00"} 
+Response 	 : Error : 400 : "{"errorCode":"44","sourceSystem":"DIWA-SVC","message":"ACCOUNT NOT FOUND","engMessage":"ACCOUNT NOT FOUND","idnMessage":"REKENING TIDAK DITEMUKAN","activityRefCode":"ead6cca7370bd98b"}" 
+
+ =================================================================== 
+
+20-03-2024 10:56:13.813 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 23864 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+20-03-2024 10:56:13.820 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+20-03-2024 10:56:13.823 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+20-03-2024 10:56:26.437 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 14.009 seconds (process running for 15.638)
+20-03-2024 10:57:10.728 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 11688 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+20-03-2024 10:57:10.732 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+20-03-2024 10:57:10.732 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+20-03-2024 10:57:27.087 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 18.209 seconds (process running for 20.11)
+20-03-2024 14:12:30.625 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 15184 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+20-03-2024 14:12:30.630 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+20-03-2024 14:12:30.630 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+20-03-2024 14:12:58.506 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 29.614 seconds (process running for 31.762)
+20-03-2024 14:14:43.156 [http-nio-8087-exec-2] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> {"channel":"MARTIPAY","notificationType":"REGISTRATION-ACCOUNT-BINDING","rawNotification":[{"url":"https://","bodyRequest":{"phoneNumber":"6285270196990","fullName":"Kal Kausar","birthdate":"1998-08-30","placeOrBirth":"Banda Aceh","email":"kalkausar98@gmail.com","channelRequest":"MARTIPAY","stan":"123456","requestDate":"2024-01-30","requestTime":"14:56:27","tokenAuthorization":"pw/hyLkFlQhdyq3DRvFdWw==","responseCode":"00","responseDescription":"Success"},"header":[{"key":"Content-Type","value":"Application/JSON"},{"key":"channelRequest","value":"MARTIPAY"}],"requestParams":[{"key":"id","value":"2"},{"key":"name","value":"kalkausar"}]}]}
+20-03-2024 14:14:53.132 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  b.project.consumer.RabbitMQConsumer.consume - received message : {"channel":"MARTIPAY","notificationType":"REGISTRATION-ACCOUNT-BINDING","rawNotification":[{"url":"https://","bodyRequest":{"phoneNumber":"6285270196990","fullName":"Kal Kausar","birthdate":"1998-08-30","placeOrBirth":"Banda Aceh","email":"kalkausar98@gmail.com","channelRequest":"MARTIPAY","stan":"123456","requestDate":"2024-01-30","requestTime":"14:56:27","tokenAuthorization":"pw/hyLkFlQhdyq3DRvFdWw==","responseCode":"00","responseDescription":"Success"},"header":[{"key":"Content-Type","value":"Application/JSON"},{"key":"channelRequest","value":"MARTIPAY"}],"requestParams":[{"key":"id","value":"2"},{"key":"name","value":"kalkausar"}]}]}
+20-03-2024 14:14:54.349 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  b.project.consumer.RabbitMQConsumer.postApiCallback - 
+ =================================================================== 
+
+Access Rabbit MQ Consumer REGISTRATION-ACCOUNT-BINDING
+URL 	 	 : http://ue-dev.bankdki.co.id/api/transactionservice/transaction/cashin 
+Header 	 	 : {"Content-Type":["Application/JSON"],"channelRequest":["MARTIPAY"]} 
+Request 	 : {"requestTime":"14:56:27","tokenAuthorization":"pw/hyLkFlQhdyq3DRvFdWw==","phoneNumber":"6285270196990","birthdate":"1998-08-30","channelRequest":"MARTIPAY","responseDescription":"Success","placeOrBirth":"Banda Aceh","stan":"123456","requestDate":"2024-01-30","fullName":"Kal Kausar","email":"kalkausar98@gmail.com","responseCode":"00"} 
+Response 	 : Error : 400 : "{"errorCode":"44","sourceSystem":"DIWA-SVC","message":"ACCOUNT NOT FOUND","engMessage":"ACCOUNT NOT FOUND","idnMessage":"REKENING TIDAK DITEMUKAN","activityRefCode":"6b2537f76cbd7b33"}" 
+
+ =================================================================== 
+
+20-03-2024 14:15:16.620 [http-nio-8087-exec-2] INFO  b.project.consumer.RabbitMQConsumer.consume - received message : {"channel":"MARTIPAY","notificationType":"REGISTRATION-ACCOUNT-BINDING","rawNotification":[{"url":"https://","bodyRequest":{"phoneNumber":"6285270196990","fullName":"Kal Kausar","birthdate":"1998-08-30","placeOrBirth":"Banda Aceh","email":"kalkausar98@gmail.com","channelRequest":"MARTIPAY","stan":"123456","requestDate":"2024-01-30","requestTime":"14:56:27","tokenAuthorization":"pw/hyLkFlQhdyq3DRvFdWw==","responseCode":"00","responseDescription":"Success"},"header":[{"key":"Content-Type","value":"Application/JSON"},{"key":"channelRequest","value":"MARTIPAY"}],"requestParams":[{"key":"id","value":"2"},{"key":"name","value":"kalkausar"}]}]}
+20-03-2024 14:21:03.637 [http-nio-8087-exec-2] INFO  b.project.consumer.RabbitMQConsumer.postApiCallback - 
+ =================================================================== 
+
+Access Rabbit MQ Consumer REGISTRATION-ACCOUNT-BINDING
+URL 	 	 : http://ue-dev.bankdki.co.id/api/transactionservice/transaction/cashin 
+Header 	 	 : {"Content-Type":["Application/JSON"],"channelRequest":["MARTIPAY"]} 
+Request 	 : {"requestTime":"14:56:27","tokenAuthorization":"pw/hyLkFlQhdyq3DRvFdWw==","phoneNumber":"6285270196990","birthdate":"1998-08-30","channelRequest":"MARTIPAY","responseDescription":"Success","placeOrBirth":"Banda Aceh","stan":"123456","requestDate":"2024-01-30","fullName":"Kal Kausar","email":"kalkausar98@gmail.com","responseCode":"00"} 
+Response 	 : Error : 400 : "{"errorCode":"44","sourceSystem":"DIWA-SVC","message":"ACCOUNT NOT FOUND","engMessage":"ACCOUNT NOT FOUND","idnMessage":"REKENING TIDAK DITEMUKAN","activityRefCode":"1d6bed79562a992d"}" 
+
+ =================================================================== 
+
+20-03-2024 14:21:44.461 [http-nio-8087-exec-2] INFO  b.project.consumer.RabbitMQConsumer.postApiCallback - 
+ =================================================================== 
+
+Access Rabbit MQ Consumer REGISTRATION-ACCOUNT-BINDING
+URL 	 	 :  
+Header 	 	 : {} 
+Request 	 : {} 
+Response 	 : Error : JSONObject["bodyRequest"] not found. 
+
+ =================================================================== 
+
+20-03-2024 14:22:52.242 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 5772 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+20-03-2024 14:22:52.242 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+20-03-2024 14:22:52.242 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+20-03-2024 14:23:11.679 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 21.477 seconds (process running for 23.73)
+20-03-2024 14:23:31.249 [http-nio-8087-exec-2] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> {"channel":"MARTIPAY","notificationType":"REGISTRATION-ACCOUNT-BINDING","rawNotification":[{"url":"https://","bodyRequest":{"phoneNumber":"6285270196990","fullName":"Kal Kausar","birthdate":"1998-08-30","placeOrBirth":"Banda Aceh","email":"kalkausar98@gmail.com","channelRequest":"MARTIPAY","stan":"123456","requestDate":"2024-01-30","requestTime":"14:56:27","tokenAuthorization":"pw/hyLkFlQhdyq3DRvFdWw==","responseCode":"00","responseDescription":"Success"},"header":[{"key":"Content-Type","value":"Application/JSON"},{"key":"channelRequest","value":"MARTIPAY"}],"requestParams":[{"key":"id","value":"2"},{"key":"name","value":"kalkausar"}]}]}
+20-03-2024 14:23:35.338 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  b.project.consumer.RabbitMQConsumer.consume - received message : {"channel":"MARTIPAY","notificationType":"REGISTRATION-ACCOUNT-BINDING","rawNotification":[{"url":"https://","bodyRequest":{"phoneNumber":"6285270196990","fullName":"Kal Kausar","birthdate":"1998-08-30","placeOrBirth":"Banda Aceh","email":"kalkausar98@gmail.com","channelRequest":"MARTIPAY","stan":"123456","requestDate":"2024-01-30","requestTime":"14:56:27","tokenAuthorization":"pw/hyLkFlQhdyq3DRvFdWw==","responseCode":"00","responseDescription":"Success"},"header":[{"key":"Content-Type","value":"Application/JSON"},{"key":"channelRequest","value":"MARTIPAY"}],"requestParams":[{"key":"id","value":"2"},{"key":"name","value":"kalkausar"}]}]}
+20-03-2024 14:23:35.801 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  b.project.consumer.RabbitMQConsumer.postApiCallback - 
+ =================================================================== 
+
+Access Rabbit MQ Consumer REGISTRATION-ACCOUNT-BINDING
+URL 	 	 : http://ue-dev.bankdki.co.id/api/transactionservice/transaction/cashin 
+Header 	 	 : {"Content-Type":["Application/JSON"],"channelRequest":["MARTIPAY"]} 
+Request 	 : {"requestTime":"14:56:27","tokenAuthorization":"pw/hyLkFlQhdyq3DRvFdWw==","phoneNumber":"6285270196990","birthdate":"1998-08-30","channelRequest":"MARTIPAY","responseDescription":"Success","placeOrBirth":"Banda Aceh","stan":"123456","requestDate":"2024-01-30","fullName":"Kal Kausar","email":"kalkausar98@gmail.com","responseCode":"00"} 
+Response 	 : Error : 400 : "{"errorCode":"44","sourceSystem":"DIWA-SVC","message":"ACCOUNT NOT FOUND","engMessage":"ACCOUNT NOT FOUND","idnMessage":"REKENING TIDAK DITEMUKAN","activityRefCode":"2455b40a2c417329"}" 
+
+ =================================================================== 
+
+20-03-2024 14:24:10.179 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 11372 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+20-03-2024 14:24:10.179 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+20-03-2024 14:24:10.179 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+20-03-2024 14:24:22.232 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 13.741 seconds (process running for 15.219)
+20-03-2024 14:24:40.258 [http-nio-8087-exec-1] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> {"channel":"MARTIPAY","notificationType":"REGISTRATION-ACCOUNT-BINDING","rawNotification":[{"url":"https://","bodyRequest":{"phoneNumber":"6285270196990","fullName":"Kal Kausar","birthdate":"1998-08-30","placeOrBirth":"Banda Aceh","email":"kalkausar98@gmail.com","channelRequest":"MARTIPAY","stan":"123456","requestDate":"2024-01-30","requestTime":"14:56:27","tokenAuthorization":"pw/hyLkFlQhdyq3DRvFdWw==","responseCode":"00","responseDescription":"Success"},"header":[{"key":"Content-Type","value":"Application/JSON"},{"key":"channelRequest","value":"MARTIPAY"}],"requestParams":[{"key":"id","value":"2"},{"key":"name","value":"kalkausar"}]}]}
+20-03-2024 14:24:44.039 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  b.project.consumer.RabbitMQConsumer.consume - received message : {"channel":"MARTIPAY","notificationType":"REGISTRATION-ACCOUNT-BINDING","rawNotification":[{"url":"https://","bodyRequest":{"phoneNumber":"6285270196990","fullName":"Kal Kausar","birthdate":"1998-08-30","placeOrBirth":"Banda Aceh","email":"kalkausar98@gmail.com","channelRequest":"MARTIPAY","stan":"123456","requestDate":"2024-01-30","requestTime":"14:56:27","tokenAuthorization":"pw/hyLkFlQhdyq3DRvFdWw==","responseCode":"00","responseDescription":"Success"},"header":[{"key":"Content-Type","value":"Application/JSON"},{"key":"channelRequest","value":"MARTIPAY"}],"requestParams":[{"key":"id","value":"2"},{"key":"name","value":"kalkausar"}]}]}
+20-03-2024 14:24:45.326 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  b.project.consumer.RabbitMQConsumer.postApiCallback - 
+ =================================================================== 
+
+Access Rabbit MQ Consumer REGISTRATION-ACCOUNT-BINDING
+URL 	 	 : http://ue-dev.bankdki.co.id/api/transactionservice/transaction/cashin 
+Header 	 	 : {"Content-Type":["Application/JSON"],"channelRequest":["MARTIPAY"]} 
+Request 	 : {"requestTime":"14:56:27","tokenAuthorization":"pw/hyLkFlQhdyq3DRvFdWw==","phoneNumber":"6285270196990","birthdate":"1998-08-30","channelRequest":"MARTIPAY","responseDescription":"Success","placeOrBirth":"Banda Aceh","stan":"123456","requestDate":"2024-01-30","fullName":"Kal Kausar","email":"kalkausar98@gmail.com","responseCode":"00"} 
+Response 	 : Error : 400 : "{"errorCode":"44","sourceSystem":"DIWA-SVC","message":"ACCOUNT NOT FOUND","engMessage":"ACCOUNT NOT FOUND","idnMessage":"REKENING TIDAK DITEMUKAN","activityRefCode":"ab76dc369db5c2e9"}" 
+
+ =================================================================== 
+
+20-03-2024 14:25:40.483 [http-nio-8087-exec-1] INFO  b.project.consumer.RabbitMQConsumer.consume - received message : {"channel":"MARTIPAY","notificationType":"REGISTRATION-ACCOUNT-BINDING","rawNotification":[{"url":"https://","bodyRequest":{"phoneNumber":"6285270196990","fullName":"Kal Kausar","birthdate":"1998-08-30","placeOrBirth":"Banda Aceh","email":"kalkausar98@gmail.com","channelRequest":"MARTIPAY","stan":"123456","requestDate":"2024-01-30","requestTime":"14:56:27","tokenAuthorization":"pw/hyLkFlQhdyq3DRvFdWw==","responseCode":"00","responseDescription":"Success"},"header":[{"key":"Content-Type","value":"Application/JSON"},{"key":"channelRequest","value":"MARTIPAY"}],"requestParams":[{"key":"id","value":"2"},{"key":"name","value":"kalkausar"}]}]}
+20-03-2024 14:27:30.494 [http-nio-8087-exec-1] INFO  b.project.consumer.RabbitMQConsumer.postApiCallback - 
+ =================================================================== 
+
+Access Rabbit MQ Consumer REGISTRATION-ACCOUNT-BINDING
+URL 	 	 : http://ue-dev.bankdki.co.id/api/transactionservice/transaction/cashin 
+Header 	 	 : {"Content-Type":["Application/JSON"],"channelRequest":["MARTIPAY"]} 
+Request 	 : {"requestTime":"14:56:27","tokenAuthorization":"pw/hyLkFlQhdyq3DRvFdWw==","phoneNumber":"6285270196990","birthdate":"1998-08-30","channelRequest":"MARTIPAY","responseDescription":"Success","placeOrBirth":"Banda Aceh","stan":"123456","requestDate":"2024-01-30","fullName":"Kal Kausar","email":"kalkausar98@gmail.com","responseCode":"00"} 
+Response 	 : Error : 400 : "{"errorCode":"44","sourceSystem":"DIWA-SVC","message":"ACCOUNT NOT FOUND","engMessage":"ACCOUNT NOT FOUND","idnMessage":"REKENING TIDAK DITEMUKAN","activityRefCode":"a51b7b9b15e8d4da"}" 
+
+ =================================================================== 
+
+20-03-2024 14:29:26.186 [http-nio-8087-exec-1] INFO  b.project.consumer.RabbitMQConsumer.postApiCallback - 
+ =================================================================== 
+
+Access Rabbit MQ Consumer REGISTRATION-ACCOUNT-BINDING
+URL 	 	 :  
+Header 	 	 : {} 
+Request 	 : {} 
+Response 	 : Error : JSONObject["bodyRequest"] not found. 
+
+ =================================================================== 
+
+21-03-2024 09:34:33.069 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 5752 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+21-03-2024 09:34:33.074 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+21-03-2024 09:34:33.089 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+21-03-2024 09:34:42.161 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 10.332 seconds (process running for 11.319)
+21-03-2024 13:37:02.713 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 16128 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+21-03-2024 13:37:02.713 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+21-03-2024 13:37:02.713 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+21-03-2024 13:37:10.971 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 9.252 seconds (process running for 10.119)
+21-03-2024 13:45:34.631 [http-nio-8087-exec-5] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> {"channel":"MARTIPAY","notificationType":"REGISTRATION-ACCOUNT-BINDING","rawNotification":[{"url":"https://","bodyRequest":{"phoneNumber":"6285270196990","fullName":"Kal Kausar","birthdate":"1998-08-30","placeOrBirth":"Banda Aceh","email":"kalkausar98@gmail.com","channelRequest":"MARTIPAY","stan":"123456","requestDate":"2024-01-30","requestTime":"14:56:27","tokenAuthorization":"pw/hyLkFlQhdyq3DRvFdWw==","responseCode":"00","responseDescription":"Success"},"header":[{"key":"Content-Type","value":"Application/JSON"},{"key":"channelRequest","value":"MARTIPAY"}],"requestParams":[{"key":"id","value":"2"},{"key":"name","value":"kalkausar"}]}]}
+21-03-2024 13:45:34.702 [http-nio-8087-exec-5] INFO  b.project.consumer.RabbitMQConsumer.consume - received message : {"channel":"MARTIPAY","notificationType":"REGISTRATION-ACCOUNT-BINDING","rawNotification":[{"url":"https://","bodyRequest":{"phoneNumber":"6285270196990","fullName":"Kal Kausar","birthdate":"1998-08-30","placeOrBirth":"Banda Aceh","email":"kalkausar98@gmail.com","channelRequest":"MARTIPAY","stan":"123456","requestDate":"2024-01-30","requestTime":"14:56:27","tokenAuthorization":"pw/hyLkFlQhdyq3DRvFdWw==","responseCode":"00","responseDescription":"Success"},"header":[{"key":"Content-Type","value":"Application/JSON"},{"key":"channelRequest","value":"MARTIPAY"}],"requestParams":[{"key":"id","value":"2"},{"key":"name","value":"kalkausar"}]}]}
+21-03-2024 13:45:34.879 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  b.project.consumer.RabbitMQConsumer.consume - received message : {"channel":"MARTIPAY","notificationType":"REGISTRATION-ACCOUNT-BINDING","rawNotification":[{"url":"https://","bodyRequest":{"phoneNumber":"6285270196990","fullName":"Kal Kausar","birthdate":"1998-08-30","placeOrBirth":"Banda Aceh","email":"kalkausar98@gmail.com","channelRequest":"MARTIPAY","stan":"123456","requestDate":"2024-01-30","requestTime":"14:56:27","tokenAuthorization":"pw/hyLkFlQhdyq3DRvFdWw==","responseCode":"00","responseDescription":"Success"},"header":[{"key":"Content-Type","value":"Application/JSON"},{"key":"channelRequest","value":"MARTIPAY"}],"requestParams":[{"key":"id","value":"2"},{"key":"name","value":"kalkausar"}]}]}
+21-03-2024 13:45:36.270 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  b.project.consumer.RabbitMQConsumer.postApiCallback - 
+ =================================================================== 
+
+Access Rabbit MQ Consumer REGISTRATION-ACCOUNT-BINDING
+URL 	 	 : http://ue-dev.bankdki.co.id/api/transactionservice/transaction/cashin 
+Header 	 	 : {"Content-Type":["Application/JSON"],"channelRequest":["MARTIPAY"]} 
+Request 	 : {"requestTime":"14:56:27","tokenAuthorization":"pw/hyLkFlQhdyq3DRvFdWw==","phoneNumber":"6285270196990","birthdate":"1998-08-30","channelRequest":"MARTIPAY","responseDescription":"Success","placeOrBirth":"Banda Aceh","stan":"123456","requestDate":"2024-01-30","fullName":"Kal Kausar","email":"kalkausar98@gmail.com","responseCode":"00"} 
+Response 	 : Error : 400 : "{"errorCode":"44","sourceSystem":"DIWA-SVC","message":"ACCOUNT NOT FOUND","engMessage":"ACCOUNT NOT FOUND","idnMessage":"REKENING TIDAK DITEMUKAN","activityRefCode":"fed1ff9a87e49eac"}" 
+
+ =================================================================== 
+
+21-03-2024 13:45:36.284 [http-nio-8087-exec-5] INFO  b.project.consumer.RabbitMQConsumer.postApiCallback - 
+ =================================================================== 
+
+Access Rabbit MQ Consumer REGISTRATION-ACCOUNT-BINDING
+URL 	 	 : http://ue-dev.bankdki.co.id/api/transactionservice/transaction/cashin 
+Header 	 	 : {"Content-Type":["Application/JSON"],"channelRequest":["MARTIPAY"]} 
+Request 	 : {"requestTime":"14:56:27","tokenAuthorization":"pw/hyLkFlQhdyq3DRvFdWw==","phoneNumber":"6285270196990","birthdate":"1998-08-30","channelRequest":"MARTIPAY","responseDescription":"Success","placeOrBirth":"Banda Aceh","stan":"123456","requestDate":"2024-01-30","fullName":"Kal Kausar","email":"kalkausar98@gmail.com","responseCode":"00"} 
+Response 	 : Error : 400 : "{"errorCode":"44","sourceSystem":"DIWA-SVC","message":"ACCOUNT NOT FOUND","engMessage":"ACCOUNT NOT FOUND","idnMessage":"REKENING TIDAK DITEMUKAN","activityRefCode":"0ba75076916bd147"}" 
+
+ =================================================================== 
+
+21-03-2024 13:45:36.290 [http-nio-8087-exec-5] INFO  b.project.consumer.RabbitMQConsumer.postApiCallback - 
+ =================================================================== 
+
+Access Rabbit MQ Consumer REGISTRATION-ACCOUNT-BINDING
+URL 	 	 :  
+Header 	 	 : {} 
+Request 	 : {} 
+Response 	 : Error : JSONObject["bodyRequest"] not found. 
+
+ =================================================================== 
+
+21-03-2024 13:46:01.735 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 2036 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+21-03-2024 13:46:01.737 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+21-03-2024 13:46:01.739 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+21-03-2024 13:46:17.988 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 17.466 seconds (process running for 19.104)
+21-03-2024 13:46:43.287 [http-nio-8087-exec-1] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> {"channel":"MARTIPAY","notificationType":"REGISTRATION-ACCOUNT-BINDING","rawNotification":[{"url":"https://","bodyRequest":{"phoneNumber":"6285270196990","fullName":"Kal Kausar","birthdate":"1998-08-30","placeOrBirth":"Banda Aceh","email":"kalkausar98@gmail.com","channelRequest":"MARTIPAY","stan":"123456","requestDate":"2024-01-30","requestTime":"14:56:27","tokenAuthorization":"pw/hyLkFlQhdyq3DRvFdWw==","responseCode":"00","responseDescription":"Success"},"header":[{"key":"Content-Type","value":"Application/JSON"},{"key":"channelRequest","value":"MARTIPAY"}],"requestParams":[{"key":"id","value":"2"},{"key":"name","value":"kalkausar"}]}]}
+21-03-2024 13:46:45.397 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  b.project.consumer.RabbitMQConsumer.consume - received message : {"channel":"MARTIPAY","notificationType":"REGISTRATION-ACCOUNT-BINDING","rawNotification":[{"url":"https://","bodyRequest":{"phoneNumber":"6285270196990","fullName":"Kal Kausar","birthdate":"1998-08-30","placeOrBirth":"Banda Aceh","email":"kalkausar98@gmail.com","channelRequest":"MARTIPAY","stan":"123456","requestDate":"2024-01-30","requestTime":"14:56:27","tokenAuthorization":"pw/hyLkFlQhdyq3DRvFdWw==","responseCode":"00","responseDescription":"Success"},"header":[{"key":"Content-Type","value":"Application/JSON"},{"key":"channelRequest","value":"MARTIPAY"}],"requestParams":[{"key":"id","value":"2"},{"key":"name","value":"kalkausar"}]}]}
+21-03-2024 13:46:45.837 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  b.project.consumer.RabbitMQConsumer.postApiCallback - 
+ =================================================================== 
+
+Access Rabbit MQ Consumer REGISTRATION-ACCOUNT-BINDING
+URL 	 	 : http://ue-dev.bankdki.co.id/api/transactionservice/transaction/cashin 
+Header 	 	 : {"Content-Type":["Application/JSON"],"channelRequest":["MARTIPAY"]} 
+Request 	 : {"requestTime":"14:56:27","tokenAuthorization":"pw/hyLkFlQhdyq3DRvFdWw==","phoneNumber":"6285270196990","birthdate":"1998-08-30","channelRequest":"MARTIPAY","responseDescription":"Success","placeOrBirth":"Banda Aceh","stan":"123456","requestDate":"2024-01-30","fullName":"Kal Kausar","email":"kalkausar98@gmail.com","responseCode":"00"} 
+Response 	 : Error : 400 : "{"errorCode":"44","sourceSystem":"DIWA-SVC","message":"ACCOUNT NOT FOUND","engMessage":"ACCOUNT NOT FOUND","idnMessage":"REKENING TIDAK DITEMUKAN","activityRefCode":"0b7badc486822d84"}" 
+
+ =================================================================== 
+
+21-03-2024 13:46:57.461 [http-nio-8087-exec-1] INFO  b.project.consumer.RabbitMQConsumer.consume - received message : {"channel":"MARTIPAY","notificationType":"REGISTRATION-ACCOUNT-BINDING","rawNotification":[{"url":"https://","bodyRequest":{"phoneNumber":"6285270196990","fullName":"Kal Kausar","birthdate":"1998-08-30","placeOrBirth":"Banda Aceh","email":"kalkausar98@gmail.com","channelRequest":"MARTIPAY","stan":"123456","requestDate":"2024-01-30","requestTime":"14:56:27","tokenAuthorization":"pw/hyLkFlQhdyq3DRvFdWw==","responseCode":"00","responseDescription":"Success"},"header":[{"key":"Content-Type","value":"Application/JSON"},{"key":"channelRequest","value":"MARTIPAY"}],"requestParams":[{"key":"id","value":"2"},{"key":"name","value":"kalkausar"}]}]}
+21-03-2024 13:47:44.930 [http-nio-8087-exec-1] INFO  b.project.consumer.RabbitMQConsumer.postApiCallback - 
+ =================================================================== 
+
+Access Rabbit MQ Consumer REGISTRATION-ACCOUNT-BINDING
+URL 	 	 : http://ue-dev.bankdki.co.id/api/transactionservice/transaction/cashin 
+Header 	 	 : {"Content-Type":["Application/JSON"],"channelRequest":["MARTIPAY"]} 
+Request 	 : {"requestTime":"14:56:27","tokenAuthorization":"pw/hyLkFlQhdyq3DRvFdWw==","phoneNumber":"6285270196990","birthdate":"1998-08-30","channelRequest":"MARTIPAY","responseDescription":"Success","placeOrBirth":"Banda Aceh","stan":"123456","requestDate":"2024-01-30","fullName":"Kal Kausar","email":"kalkausar98@gmail.com","responseCode":"00"} 
+Response 	 : Error : 400 : "{"errorCode":"44","sourceSystem":"DIWA-SVC","message":"ACCOUNT NOT FOUND","engMessage":"ACCOUNT NOT FOUND","idnMessage":"REKENING TIDAK DITEMUKAN","activityRefCode":"d67a1f34e8c2cb16"}" 
+
+ =================================================================== 
+
+21-03-2024 13:48:26.699 [http-nio-8087-exec-1] INFO  b.project.consumer.RabbitMQConsumer.postApiCallback - 
+ =================================================================== 
+
+Access Rabbit MQ Consumer REGISTRATION-ACCOUNT-BINDING
+URL 	 	 :  
+Header 	 	 : {} 
+Request 	 : {} 
+Response 	 : Error : JSONObject["bodyRequest"] not found. 
+
+ =================================================================== 
+
+21-03-2024 13:49:07.467 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 24152 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+21-03-2024 13:49:07.470 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+21-03-2024 13:49:07.472 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+21-03-2024 13:49:25.237 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 18.932 seconds (process running for 20.653)
+21-03-2024 13:50:23.129 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 17364 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+21-03-2024 13:50:23.131 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+21-03-2024 13:50:23.132 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+21-03-2024 13:50:30.402 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 8.155 seconds (process running for 9.031)
+21-03-2024 13:50:42.901 [http-nio-8087-exec-1] INFO  b.project.publisher.RabbitMQProducer.sendMessage - Message sent -> {"channel":"MARTIPAY","notificationType":"REGISTRATION-ACCOUNT-BINDING","rawNotification":[{"url":"https://","bodyRequest":{"phoneNumber":"6285270196990","fullName":"Kal Kausar","birthdate":"1998-08-30","placeOrBirth":"Banda Aceh","email":"kalkausar98@gmail.com","channelRequest":"MARTIPAY","stan":"123456","requestDate":"2024-01-30","requestTime":"14:56:27","tokenAuthorization":"pw/hyLkFlQhdyq3DRvFdWw==","responseCode":"00","responseDescription":"Success"},"header":[{"key":"Content-Type","value":"Application/JSON"},{"key":"channelRequest","value":"MARTIPAY"}],"requestParams":[{"key":"id","value":"2"},{"key":"name","value":"kalkausar"}]}]}
+21-03-2024 13:50:42.947 [http-nio-8087-exec-1] INFO  b.project.consumer.RabbitMQConsumer.consume - received message : {"channel":"MARTIPAY","notificationType":"REGISTRATION-ACCOUNT-BINDING","rawNotification":[{"url":"https://","bodyRequest":{"phoneNumber":"6285270196990","fullName":"Kal Kausar","birthdate":"1998-08-30","placeOrBirth":"Banda Aceh","email":"kalkausar98@gmail.com","channelRequest":"MARTIPAY","stan":"123456","requestDate":"2024-01-30","requestTime":"14:56:27","tokenAuthorization":"pw/hyLkFlQhdyq3DRvFdWw==","responseCode":"00","responseDescription":"Success"},"header":[{"key":"Content-Type","value":"Application/JSON"},{"key":"channelRequest","value":"MARTIPAY"}],"requestParams":[{"key":"id","value":"2"},{"key":"name","value":"kalkausar"}]}]}
+21-03-2024 13:50:42.947 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  b.project.consumer.RabbitMQConsumer.consume - received message : {"channel":"MARTIPAY","notificationType":"REGISTRATION-ACCOUNT-BINDING","rawNotification":[{"url":"https://","bodyRequest":{"phoneNumber":"6285270196990","fullName":"Kal Kausar","birthdate":"1998-08-30","placeOrBirth":"Banda Aceh","email":"kalkausar98@gmail.com","channelRequest":"MARTIPAY","stan":"123456","requestDate":"2024-01-30","requestTime":"14:56:27","tokenAuthorization":"pw/hyLkFlQhdyq3DRvFdWw==","responseCode":"00","responseDescription":"Success"},"header":[{"key":"Content-Type","value":"Application/JSON"},{"key":"channelRequest","value":"MARTIPAY"}],"requestParams":[{"key":"id","value":"2"},{"key":"name","value":"kalkausar"}]}]}
+21-03-2024 13:50:43.441 [http-nio-8087-exec-1] INFO  b.project.consumer.RabbitMQConsumer.postApiCallback - 
+ =================================================================== 
+
+Access Rabbit MQ Consumer REGISTRATION-ACCOUNT-BINDING
+URL 	 	 : http://ue-dev.bankdki.co.id/api/transactionservice/transaction/cashin 
+Header 	 	 : {"Content-Type":["Application/JSON"],"channelRequest":["MARTIPAY"]} 
+Request 	 : {"requestTime":"14:56:27","tokenAuthorization":"pw/hyLkFlQhdyq3DRvFdWw==","phoneNumber":"6285270196990","birthdate":"1998-08-30","channelRequest":"MARTIPAY","responseDescription":"Success","placeOrBirth":"Banda Aceh","stan":"123456","requestDate":"2024-01-30","fullName":"Kal Kausar","email":"kalkausar98@gmail.com","responseCode":"00"} 
+Response 	 : Error : 400 : "{"errorCode":"44","sourceSystem":"DIWA-SVC","message":"ACCOUNT NOT FOUND","engMessage":"ACCOUNT NOT FOUND","idnMessage":"REKENING TIDAK DITEMUKAN","activityRefCode":"0b92b0fc9cef443e"}" 
+
+ =================================================================== 
+
+21-03-2024 13:50:43.457 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  b.project.consumer.RabbitMQConsumer.postApiCallback - 
+ =================================================================== 
+
+Access Rabbit MQ Consumer REGISTRATION-ACCOUNT-BINDING
+URL 	 	 : http://ue-dev.bankdki.co.id/api/transactionservice/transaction/cashin 
+Header 	 	 : {"Content-Type":["Application/JSON"],"channelRequest":["MARTIPAY"]} 
+Request 	 : {"requestTime":"14:56:27","tokenAuthorization":"pw/hyLkFlQhdyq3DRvFdWw==","phoneNumber":"6285270196990","birthdate":"1998-08-30","channelRequest":"MARTIPAY","responseDescription":"Success","placeOrBirth":"Banda Aceh","stan":"123456","requestDate":"2024-01-30","fullName":"Kal Kausar","email":"kalkausar98@gmail.com","responseCode":"00"} 
+Response 	 : Error : 400 : "{"errorCode":"44","sourceSystem":"DIWA-SVC","message":"ACCOUNT NOT FOUND","engMessage":"ACCOUNT NOT FOUND","idnMessage":"REKENING TIDAK DITEMUKAN","activityRefCode":"bb1d3d52e1174db6"}" 
+
+ =================================================================== 
+

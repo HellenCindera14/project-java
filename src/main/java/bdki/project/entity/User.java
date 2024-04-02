@@ -34,26 +34,23 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
-    @Column(name = "name")
-    private String name;
-
-    @Column(name = "phoneNumber")
+    @Column(name = "phone_number")
     private String phoneNumber;
 
-    @Column(name = "channelRequest")
-    private String channelRequest;
-
-    @Column(name = "fullName")
+    @Column(name = "full_name")
     private String fullName;
 
     @Column(name = "birthdate")
     private String birthdate;
 
-    @Column(name = "placeOfBirth")
+    @Column(name = "place_of_birth")
     private String placeOfBirth;
 
     @Column(name = "email")
     private String email;
+
+    @Column(name = "channel_request")
+    private String channelRequest;
 
     @Column(name = "stan")
     private String stan;

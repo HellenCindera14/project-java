@@ -49,11 +49,11 @@ public class UserController {
             rabbitMQConsumer.consume(message);
 
             // Konversi params menjadi JSONArray (jika diperlukan)
-            JSONArray arrayData = new JSONArray();
-            arrayData.put(params);
+            // JSONArray arrayData = new JSONArray();
+            // arrayData.put(params);
             
             // Memanggil postApiCallback dari consumer dengan parameter yang sesuai
-            rabbitMQConsumer.postApiCallback(arrayData, "REGISTRATION-ACCOUNT-BINDING");
+            // rabbitMQConsumer.postApiCallback(arrayData, "REGISTRATION-ACCOUNT-BINDING");
             
             return ResponseEntity.ok("callback succes yaa...");
         } catch (JsonProcessingException e) {

@@ -6,8 +6,5 @@ import org.springframework.stereotype.Repository;
 import bdki.project.entity.User;
 
 @Repository
-public interface UserRepository extends JpaRepository<User, Long> {
-    User findByStan(String stan);
-    boolean existsByStan(String stan);
-
+    public interface RegisrationRepository extends JpaRepository<User, String> {
 }

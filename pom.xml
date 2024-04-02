@@ -70,6 +70,11 @@
       <artifactId>log4j-core</artifactId>
       <version>2.20.0</version>
     </dependency>
+	<dependency>
+        <groupId>javax.persistence</groupId>
+        <artifactId>javax.persistence-api</artifactId>
+        <version>2.2</version> <!-- Versi dapat disesuaikan -->
+    </dependency>
 		 <!-- <dependency>
         <groupId>org.example</groupId>
         <artifactId>example-library</artifactId>
@@ -86,6 +91,18 @@
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
 			<version>2.10.1</version>
+		</dependency>
+
+		<!-- REDIS -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-redis</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>redis.clients</groupId>
+			<artifactId>jedis</artifactId>
+			<version>5.0.0</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt -->
 		<!-- <dependency>
