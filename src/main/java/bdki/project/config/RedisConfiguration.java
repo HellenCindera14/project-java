@@ -22,15 +22,16 @@ public class RedisConfiguration {
         return new JedisConnectionFactory(configuration);
     }
 
-    //Creating RedisTemplate for Entity 'Employee'
+    //Creating RedisTemplate for Entity 'User'
     @Bean
     public RedisTemplate<String, User> redisTemplate() {
         RedisTemplate<String, User> template = new RedisTemplate<>();
         template.setConnectionFactory(connectionFactory());
         template.setKeySerializer(new StringRedisSerializer());
+        // Menggunakan Jackson2JsonRedisSerializer untuk mengonversi nilai-nilai User menjadi JSON
         template.setValueSerializer(new Jackson2JsonRedisSerializer<>(User.class));
         template.afterPropertiesSet();
         return template;
     }
-
 }
+

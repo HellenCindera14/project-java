@@ -1,12 +1,16 @@
 package bdki.project.services;
 
 import java.util.List;
+import java.util.Objects;
 import java.util.Optional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
+
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+
 import bdki.project.entity.User;
 import bdki.project.repository.UserRepository;
 
@@ -14,6 +18,8 @@ import bdki.project.repository.UserRepository;
 public class UserService {
 
     private final UserRepository userRepository;
+
+    @Autowired
     private final RedisTemplate<String, String> redisTemplate;
 
     @Autowired
@@ -24,33 +30,31 @@ public class UserService {
 
     public User createUser(User user) {
         try {
-            // Mengambil nilai stan dari objek user
             String stanValue = user.getStan();
-            
-            // Periksa apakah nilai stan sudah ada dalam Redis
+
             if (redisTemplate.hasKey(stanValue)) {
+                // System.out.println("Masuk pengecekan ");
                 throw new RuntimeException("Duplicate stan detected in Redis: " + stanValue);
             }
-            
-            // Simpan pengguna ke dalam basis data
+
             User savedUser = userRepository.save(user);
-            
-            // Menggunakan userId dari user yang telah disimpan
-            String userIdKey = String.valueOf(savedUser.getId());
-            System.out.println("ini keys : " + userIdKey);
-            System.out.println("ini isi stanValue: " + stanValue);
-            
-            // Simpan nilai "stan" ke dalam Redis dengan kunci stanValue
-            redisTemplate.opsForValue().set(stanValue, userIdKey);
-            
+            System.out.println("======================================================");
+            System.out.println("user berhasil di simpan : " + " " +  savedUser);
+            System.out.println("ini stanKeys : " + stanValue);
+            System.out.println("ini stanValue: " + stanValue);
+            System.out.println("======================================================");
+
+            redisTemplate.opsForValue().set(stanValue, stanValue);
+
             return savedUser;
         } catch (RuntimeException e) {
             throw e;
         } catch (Exception e) {
+            System.out.println("An error occurred while creating user: " + e.getMessage());
             throw new RuntimeException("Failed to create new user: " + e.getMessage(), e);
         }
     }
-    
+
     public User getUserById(long userId) {
         String redisKey = String.valueOf(userId);
         if (redisTemplate.hasKey(redisKey)) {
