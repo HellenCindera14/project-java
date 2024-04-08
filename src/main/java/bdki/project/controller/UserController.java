@@ -24,8 +24,6 @@ import bdki.project.publisher.RabbitMQProducer;
 @RequestMapping("/user")
 public class UserController {
 
-
-
     @Autowired
     RabbitMQProducer producer;
 
@@ -36,8 +34,6 @@ public class UserController {
     public ResponseEntity<String> sendMessage(@RequestBody Map<String, Object> params) {
         try {
             ObjectMapper objectMapper = new ObjectMapper();
-
-
             String jsonData = objectMapper.writeValueAsString(params);
 
             // Mengirim pesan ke RabbitMQProducer
@@ -45,16 +41,8 @@ public class UserController {
 
             // Konsumsi pesan yang diterima dari RabbitMQ
             Message message = new Message(objectMapper.writeValueAsBytes(params));
-            
             rabbitMQConsumer.consume(message);
-
-            // Konversi params menjadi JSONArray (jika diperlukan)
-            // JSONArray arrayData = new JSONArray();
-            // arrayData.put(params);
-            
-            // Memanggil postApiCallback dari consumer dengan parameter yang sesuai
-            // rabbitMQConsumer.postApiCallback(arrayData, "REGISTRATION-ACCOUNT-BINDING");
-            
+        
             return ResponseEntity.ok("callback succes yaa...");
         } catch (JsonProcessingException e) {
             e.printStackTrace();

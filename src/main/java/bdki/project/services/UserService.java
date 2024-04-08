@@ -1,8 +1,9 @@
 package bdki.project.services;
 
 import java.util.List;
-import java.util.Objects;
 import java.util.Optional;
+
+import javax.swing.text.html.parser.Entity;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -33,13 +34,16 @@ public class UserService {
             String stanValue = user.getStan();
 
             if (redisTemplate.hasKey(stanValue)) {
-                // System.out.println("Masuk pengecekan ");
+                System.out.println("Masuk pengecekan ");
                 throw new RuntimeException("Duplicate stan detected in Redis: " + stanValue);
             }
 
             User savedUser = userRepository.save(user);
+            // String stanValueFromRedis = (String) redisTemplate.opsForValue().get(savedUser.getId());
+            // System.out.println("ini user yang di simpan ke redis : " + stanValueFromRedis);
+
             System.out.println("======================================================");
-            System.out.println("user berhasil di simpan : " + " " +  savedUser);
+            System.out.println("user berhasil di simpan : " + " " + savedUser);
             System.out.println("ini stanKeys : " + stanValue);
             System.out.println("ini stanValue: " + stanValue);
             System.out.println("======================================================");
@@ -83,6 +87,7 @@ public class UserService {
             return null;
         }
     }
+    
 
     public User updateUser(long userId, User user) {
         if (userRepository.existsById(userId)) {
@@ -109,4 +114,10 @@ public class UserService {
     public List<User> getAllUsers() {
         return userRepository.findAll();
     }
+
+    public User findByPhoneNumber(String phoneNumber) {
+        return userRepository.findByPhoneNumber(phoneNumber);
+    }
+
+    
 }

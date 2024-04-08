@@ -9,5 +9,6 @@ import bdki.project.entity.User;
 public interface UserRepository extends JpaRepository<User, Long> {
     User findByStan(String stan);
     boolean existsByStan(String stan);
+    User findByPhoneNumber(String phoneNumber);
 
 }

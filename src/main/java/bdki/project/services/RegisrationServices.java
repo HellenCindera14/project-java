@@ -1,38 +1,76 @@
-// package bdki.project.services;
+package bdki.project.services;
 
-// import java.util.Map;
+import java.util.HashMap;
+import java.util.Map;
 
-// import org.springframework.beans.factory.annotation.Autowired;
-// import org.springframework.stereotype.Service;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
 
-// import com.fasterxml.jackson.core.JsonProcessingException;
+import bdki.project.entity.Regisration;
+import bdki.project.entity.User;
+import bdki.project.repository.RegisrationRepository;
 
-// import bdki.project.repository.RegisrationRepository;
+@Service
+public class RegisrationServices {
 
-// @Service
-// public class RegisrationServices {
+    @Autowired
+    RegisrationRepository regisrationRepository;
 
-//     @Autowired
-//     RegisrationRepository regisrationRepository;
+    @Autowired
+    UserService userService;
 
-//     public Map<String,Object> regisrationGenerate(Map<String,Object> params) throws JsonProcessingException {
+    public ResponseEntity<Object> regisrationGenerate(Map<String, Object> params) {
+        Map<String, Object> result = new HashMap<>();
+        String responseCode = "";
+        String statusCode = "";
+        String responseMessage = "";
+        Regisration regisration = new Regisration();
 
-//         try {
-//             if(params != null) {
+        try {
+            if (params != null) {
+                String fullname = (String) params.get("fullname");
+                String email = (String) params.get("email");
+                String noTelp = (String) params.get("noTelp");
 
-//                 String fullname =  (params.get("fullname") !=null)? params.get("fullname").toString() : null;
-//                 String email = (params.get("email") != null) ? params.get("email").toString() : null;
-//                 String noTelp = (params.get("noTelp") != null) ? params.get("noTelp").toString() : null;
+                User user = userService.findByPhoneNumber(noTelp);
 
-//             }
-//         }catch (Exception e) {
-//             e.printStackTrace();
-//             return null;
-//         }
-        
+                if (user != null) {
+                    // Redirect to registration link if user already exists
+                    responseCode = "99";
+                    statusCode = "REDIRECT";
+                    responseMessage = "User already registered";
+                    result.put("responseCode", responseCode);
+                    result.put("statusCode", statusCode);
+                    result.put("responseMessage", responseMessage);
+                    return ResponseEntity.status(HttpStatus.FOUND).body(result);
+                } else {
+                    // Save registration if user does not exist
+                    regisration.setName(fullname);
+                    regisration.setNoTelp(noTelp);
+                    regisration.setEmail(email);
+                    regisrationRepository.save(regisration);
 
-//         return null;
-        
-//     }
-    
-// }
+                    responseCode = "00";
+                    statusCode = "OK";
+                    responseMessage = "Registration Success";
+                    result.put("responseCode", responseCode);
+                    result.put("statusCode", statusCode);
+                    result.put("responseMessage", responseMessage);
+                    return ResponseEntity.status(HttpStatus.OK).body(result);
+                }
+            }
+        } catch (Exception e) {
+            responseCode = "05";
+            statusCode = "NOT OK";
+            responseMessage = "Registration Failed: " + e.getMessage();
+        }
+
+        result.put("responseCode", responseCode);
+        result.put("statusCode", statusCode);
+        result.put("responseMessage", responseMessage);
+
+        return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(result);
+    }
+}

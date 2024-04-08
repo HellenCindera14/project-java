@@ -79,6 +79,16 @@ public class UserControllerCrud {
         }
     }
 
+    @GetMapping("/phone/{phoneNumber}")
+    public ResponseEntity<User> findByPhoneNumber(@PathVariable String phoneNumber) {
+        User user = userService.findByPhoneNumber(phoneNumber);
+        if (user != null) {
+            return ResponseEntity.ok().body(user);
+        } else {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+        }
+    }
+
     @DeleteMapping("/{userId}")
     public String deleteUser(@PathVariable("userId") long userId) {
         try{
