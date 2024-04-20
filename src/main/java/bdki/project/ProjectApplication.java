@@ -20,6 +20,13 @@ public class ProjectApplication {
         SpringApplication.run(ProjectApplication.class, args);
     }
 
+    // @Bean
+    // public CommonsMultipartResolver multipartResolver() {
+    //     CommonsMultipartResolver resolver = new CommonsMultipartResolver();
+    //     resolver.setMaxUploadSize(5242880);
+    //     return resolver;
+    // }
+
     @Bean
     public RestTemplate restTemplate() {
         return new RestTemplate();

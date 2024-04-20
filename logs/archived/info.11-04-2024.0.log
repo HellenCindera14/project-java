@@ -1,0 +1,8 @@
+11-04-2024 00:02:40.800 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 13648 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+11-04-2024 00:02:40.805 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+11-04-2024 00:02:40.807 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+11-04-2024 00:02:50.165 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 10.289 seconds (process running for 10.926)
+11-04-2024 00:04:36.162 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 3356 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+11-04-2024 00:04:36.179 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+11-04-2024 00:04:36.182 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+11-04-2024 00:04:45.222 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 10.01 seconds (process running for 11.018)

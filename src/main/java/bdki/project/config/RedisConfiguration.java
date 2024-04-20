@@ -13,7 +13,6 @@ import bdki.project.entity.User;
 @Configuration
 public class RedisConfiguration {
 
-    //Creating Connection with Redis
     @Bean
     public JedisConnectionFactory connectionFactory() {
         RedisStandaloneConfiguration configuration = new RedisStandaloneConfiguration();
@@ -22,7 +21,6 @@ public class RedisConfiguration {
         return new JedisConnectionFactory(configuration);
     }
 
-    //Creating RedisTemplate for Entity 'User'
     @Bean
     public RedisTemplate<String, User> redisTemplate() {
         RedisTemplate<String, User> template = new RedisTemplate<>();

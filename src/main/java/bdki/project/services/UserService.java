@@ -3,8 +3,6 @@ package bdki.project.services;
 import java.util.List;
 import java.util.Optional;
 
-import javax.swing.text.html.parser.Entity;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
@@ -39,8 +37,7 @@ public class UserService {
             }
 
             User savedUser = userRepository.save(user);
-            // String stanValueFromRedis = (String) redisTemplate.opsForValue().get(savedUser.getId());
-            // System.out.println("ini user yang di simpan ke redis : " + stanValueFromRedis);
+            // String idFromDatabase = Long.toString(savedUser.getId());
 
             System.out.println("======================================================");
             System.out.println("user berhasil di simpan : " + " " + savedUser);
