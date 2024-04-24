@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import bdki.project.entity.Regisration;
 
 @Repository
-    public interface RegisrationRepository extends JpaRepository<Regisration, String> {
-
+public interface RegisrationRepository extends JpaRepository<Regisration, Long> {
+    Regisration findByNoTelp(String noTelp);
 }

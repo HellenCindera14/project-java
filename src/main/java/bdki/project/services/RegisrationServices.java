@@ -4,73 +4,80 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import bdki.project.entity.Regisration;
+import com.fasterxml.jackson.core.JsonProcessingException;
+
 import bdki.project.entity.User;
-import bdki.project.repository.RegisrationRepository;
+import bdki.project.repository.UserRepository;
 
 @Service
 public class RegisrationServices {
 
-    @Autowired
-    RegisrationRepository regisrationRepository;
+  @Autowired
+  UserRepository userRepository;
 
-    @Autowired
-    UserService userService;
+  @Autowired
+  UserService userService;
 
-    public ResponseEntity<Object> regisrationGenerate(Map<String, Object> params) {
-        Map<String, Object> result = new HashMap<>();
-        String responseCode = "";
-        String statusCode = "";
-        String responseMessage = "";
-        Regisration regisration = new Regisration();
+  public Map<String, Object> registration(Map<String, Object> params) throws JsonProcessingException {
+    Map<String, Object> result = new HashMap<>();
 
-        try {
-            if (params != null) {
-                String fullname = (String) params.get("fullname");
-                String email = (String) params.get("email");
-                String noTelp = (String) params.get("noTelp");
+    String responseCode = "";
+    boolean status = false;
+    String statusCode = "";
+    String resultMessage = "";
+    String url = "";
 
-                User user = userService.findByPhoneNumber(noTelp);
+    User registration = new User();
 
-                if (user != null) {
-                    // Redirect to registration link if user already exists
-                    responseCode = "99";
-                    statusCode = "REDIRECT";
-                    responseMessage = "User already registered";
-                    result.put("responseCode", responseCode);
-                    result.put("statusCode", statusCode);
-                    result.put("responseMessage", responseMessage);
-                    return ResponseEntity.status(HttpStatus.FOUND).body(result);
-                } else {
-                    // Save registration if user does not exist
-                    regisration.setName(fullname);
-                    regisration.setNoTelp(noTelp);
-                    regisration.setEmail(email);
-                    regisrationRepository.save(regisration);
+    try {
+      if (params != null) {
+        // untuk menampung input user dari UI
+        String phoneNumber = params.get("phoneNumber") != null ? params.get("phoneNumber").toString() : null;
+        String fullname = params.get("fullname") != null ? params.get("fullname").toString() : null;
+        String birthday = params.get("birthday") != null ? params.get("birthday").toString() : null;
+        String placeOfBirth = params.get("placeOfBirth") != null ? params.get("placeOfBirth").toString() : null;
+        String email = params.get("email") != null ? params.get("email").toString() : null;
+        String channelRequest = params.get("channelRequest") != null ? params.get("channelRequest").toString() : null;
+        String stan = params.get("stan") != null ? params.get("stan").toString() : null;
+  
+        registration.setPhoneNumber(phoneNumber);
+        registration.setFullName(fullname);
+        registration.setBirthdate(birthday);
+        registration.setPlaceOfBirth(placeOfBirth);
+        registration.setEmail(email);
+        registration.setChannelRequest(channelRequest);
+        registration.setStan(stan);
 
-                    responseCode = "00";
-                    statusCode = "OK";
-                    responseMessage = "Registration Success";
-                    result.put("responseCode", responseCode);
-                    result.put("statusCode", statusCode);
-                    result.put("responseMessage", responseMessage);
-                    return ResponseEntity.status(HttpStatus.OK).body(result);
-                }
-            }
-        } catch (Exception e) {
-            responseCode = "05";
-            statusCode = "NOT OK";
-            responseMessage = "Registration Failed: " + e.getMessage();
-        }
+        userRepository.save(registration);
 
-        result.put("responseCode", responseCode);
-        result.put("statusCode", statusCode);
-        result.put("responseMessage", responseMessage);
+        responseCode = "00";
+        status = true;
+        statusCode = "OK";
+        resultMessage = "Success";
 
-        return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(result);
+      } else {
+        
+       result.put("responseCode", "05");
+       result.put("status", "false");
+       result.put("statusCode", "not oke");
+       result.put("resultMessage", "Success");
+
+      }
+    } catch (Exception e) {
+      responseCode = "400";
+      status = false;
+      statusCode = "NOT OK";
+      resultMessage = "NOT SUCCESS";
+      url = "registration";
+
+    } finally {
+      result.put("responseCode", responseCode);
+      result.put("status", status);
+      result.put("statusCode", statusCode);
+      result.put("resultMessage", resultMessage);
+      return result;
     }
+}
 }

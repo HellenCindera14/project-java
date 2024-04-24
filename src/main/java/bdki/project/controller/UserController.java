@@ -2,7 +2,6 @@ package bdki.project.controller;
 
 import java.util.Map;
 
-import org.json.JSONArray;
 import org.springframework.amqp.core.Message;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

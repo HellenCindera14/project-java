@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import bdki.project.entity.EmailRequest;
 import bdki.project.entity.User;
 import bdki.project.repository.UserRepository;
 
@@ -30,6 +31,12 @@ public class UserService {
     public User createUser(User user) {
         try {
             String stanValue = user.getStan();
+            String phoneNumber = user.getPhoneNumber();
+
+             // Check if phone number is already registered
+        // if (userRepository.findByPhoneNumber(phoneNumber) != null) {
+        //     throw new RuntimeException("User with phone number " + phoneNumber + " is already registered");
+        // }
 
             if (redisTemplate.hasKey(stanValue)) {
                 System.out.println("Masuk pengecekan ");
@@ -112,9 +119,8 @@ public class UserService {
         return userRepository.findAll();
     }
 
-    public User findByPhoneNumber(String phoneNumber) {
-        return userRepository.findByPhoneNumber(phoneNumber);
-    }
-
+    // public User findByPhoneNumber(String phoneNumber) {
+    //     return userRepository.findByPhoneNumber(phoneNumber);
+    // }
     
 }
