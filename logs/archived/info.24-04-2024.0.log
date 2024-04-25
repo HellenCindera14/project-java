@@ -1,0 +1,12 @@
+24-04-2024 09:11:09.253 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 19416 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+24-04-2024 09:11:09.258 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+24-04-2024 09:11:09.263 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+24-04-2024 09:11:20.991 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 13.177 seconds (process running for 14.168)
+24-04-2024 09:34:47.352 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 23520 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+24-04-2024 09:34:47.356 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+24-04-2024 09:34:47.359 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+24-04-2024 09:35:00.014 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 15.321 seconds (process running for 16.553)
+24-04-2024 10:29:58.393 [main] INFO  bdki.project.ProjectApplication.logStarting - Starting ProjectApplication using Java 17.0.9 with PID 10640 (C:\Users\USER\Downloads\project\project\target\classes started by USER in C:\Users\USER\Downloads\project\project)
+24-04-2024 10:29:58.393 [main] DEBUG bdki.project.ProjectApplication.logStarting - Running with Spring Boot v3.2.3, Spring v6.1.4
+24-04-2024 10:29:58.393 [main] INFO  bdki.project.ProjectApplication.logStartupProfileInfo - The following 1 profile is active: "default"
+24-04-2024 10:30:11.338 [main] INFO  bdki.project.ProjectApplication.logStarted - Started ProjectApplication in 14.138 seconds (process running for 15.648)

@@ -129,6 +129,25 @@
 			<artifactId>spring-boot-starter-mail</artifactId>
 		</dependency>
 
+		<!-- thymeleaf -->
+		<dependency> 
+			<groupId>org.springframework.boot</groupId> 
+			<artifactId>spring-boot-starter-thymeleaf</artifactId> 
+		</dependency>
+
+		<!-- zxing -->
+		<!-- <dependency> 
+			<groupId>com.google.zxing</groupId> 
+			<artifactId>inti</artifactId> 
+			<version>3.4.0</version> 
+		</dependency> -->
+
+		<dependency> 
+			<groupId>com.google.zxing</groupId> 
+			<artifactId>javase</artifactId> 
+			<version>3.4.0</version> 
+		</dependency>
+
 		<!-- <dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-web</artifactId>

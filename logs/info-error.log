@@ -1,15 +1,61 @@
-24-04-2024 09:11:09.083 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.1.Final
-24-04-2024 09:11:13.883 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
-24-04-2024 09:11:14.047 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.4.4.Final
-24-04-2024 09:11:14.151 [main] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
-24-04-2024 09:11:17.236 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-24-04-2024 09:34:47.160 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.1.Final
-24-04-2024 09:34:52.967 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
-24-04-2024 09:34:53.111 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.4.4.Final
-24-04-2024 09:34:53.204 [main] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
-24-04-2024 09:34:57.001 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-24-04-2024 10:29:58.246 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.1.Final
-24-04-2024 10:30:02.545 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
-24-04-2024 10:30:02.655 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.4.4.Final
-24-04-2024 10:30:02.718 [main] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
-24-04-2024 10:30:06.283 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+26-04-2024 04:38:18.451 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.1.Final
+26-04-2024 04:38:22.835 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+26-04-2024 04:38:22.945 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.4.4.Final
+26-04-2024 04:38:23.008 [main] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+26-04-2024 04:38:27.806 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+26-04-2024 04:38:28.367 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field qrCodeGenerator in bdki.project.controller.QRController required a bean of type 'bdki.project.QRCodeGenerator' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'bdki.project.QRCodeGenerator' in your configuration.
+
+26-04-2024 04:39:26.352 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.1.Final
+26-04-2024 04:39:33.051 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+26-04-2024 04:39:33.352 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.4.4.Final
+26-04-2024 04:39:33.492 [main] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+26-04-2024 04:39:38.839 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+26-04-2024 04:39:39.412 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field qrCodeGenerator in bdki.project.controller.QRController required a bean of type 'bdki.project.QRCodeGenerator' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'bdki.project.QRCodeGenerator' in your configuration.
+
+26-04-2024 04:41:45.078 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.1.Final
+26-04-2024 04:41:52.992 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+26-04-2024 04:41:53.313 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.4.4.Final
+26-04-2024 04:41:53.464 [main] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+26-04-2024 04:41:59.211 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+26-04-2024 04:45:20.097 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.1.Final
+26-04-2024 04:45:24.229 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+26-04-2024 04:45:24.338 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.4.4.Final
+26-04-2024 04:45:24.414 [main] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+26-04-2024 04:45:29.355 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+26-04-2024 04:48:00.104 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.1.Final
+26-04-2024 04:48:06.034 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+26-04-2024 04:48:06.176 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.4.4.Final
+26-04-2024 04:48:06.289 [main] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+26-04-2024 04:48:08.742 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)

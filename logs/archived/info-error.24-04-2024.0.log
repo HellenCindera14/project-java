@@ -1,0 +1,15 @@
+24-04-2024 09:11:09.083 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.1.Final
+24-04-2024 09:11:13.883 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+24-04-2024 09:11:14.047 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.4.4.Final
+24-04-2024 09:11:14.151 [main] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+24-04-2024 09:11:17.236 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+24-04-2024 09:34:47.160 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.1.Final
+24-04-2024 09:34:52.967 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+24-04-2024 09:34:53.111 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.4.4.Final
+24-04-2024 09:34:53.204 [main] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+24-04-2024 09:34:57.001 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+24-04-2024 10:29:58.246 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.1.Final
+24-04-2024 10:30:02.545 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+24-04-2024 10:30:02.655 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.4.4.Final
+24-04-2024 10:30:02.718 [main] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+24-04-2024 10:30:06.283 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
